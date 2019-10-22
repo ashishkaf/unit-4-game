@@ -1,0 +1,68 @@
+#guessNumber {
+    font-size: 35px;
+    width: 300px;
+    height: 100px;
+    background-color: green;  
+    display: inline-block;
+}
+
+#gameResult {
+    display: inline-block;
+    width: 80px;
+    height: 100px;
+    background-color: #33ffff;
+}
+
+#crystalOne {
+    width: 5%;
+}
+
+#crystaltwo {
+    width: 3%;
+}
+
+#crystalthree {
+    width: 5%;
+}
+
+#crystalfour {
+    width: 5%;
+}
+
+#totalScore {
+    background-color: #177d7d;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    padding-right: 100px;
+}
+
+#scoreArea {
+    background-color: #177d7d;
+    color: white;
+    display: block;
+    width: 250px;
+    padding-bottom: 100px;
+    margin-top: 10px;
+}
+
+#crystalCollector {
+    background-color: #ffb62f;
+    color: white;
+    font-size: 40px;
+    display: inline-block;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+#Instructions {
+    background-color: #eeee9a;
+    width: 600px;
+    padding-bottom: 100px;
+    padding-top: 20px;
+    margin: 5px;
+}
+
+body {
+    background-color: #50e55057;
+}
