@@ -1,4 +1,5 @@
-var userTotal = 0;
+
+    var userTotal = 0;
     var winTotal = 0;
     var loseTotal = 0;
     var crystal1 = Math.floor(Math.random()*12)+1;
@@ -8,6 +9,7 @@ var userTotal = 0;
     var guessNumber = Math.floor(Math.random()*102)+19;
     
     $('#crystalOne').on('click', function(){
+        console.log("hi")
         //we need to grab crystal1 value and add to total
         userTotal = userTotal + crystal1;
     $('#scoreArea').html(userTotal);

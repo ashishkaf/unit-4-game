@@ -5,42 +5,44 @@
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
   crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <script src="assets/javascript/game.js"></script>
-
-
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  
+  
 </head>
 
 <body>
-
-<div>
-
-    <div id="crystalCollector">crystalsCollector!</div>
-
-    <div id="Instructions">
-    <div> You will be given a random number at the start of the game.<br><br> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. <br><br> You win the game by matching your total score to random number, you lose the game is your total score goes above the random number. <br><br> The value of each crystal is hidden from you until you click on it. <br><br> Each time when the game starts, the game will change the values of each crystal <br><br></div>
-
-    </div>
-
-
     
-    <div id="guessNumber"></div>
-    <div id="gameResult">
-        <div id="gameWinCount">Wins:</div>
-        <div id="gameLossCount">Losses:</div>
-    </div>
-
     <div>
-        <img id = "crystalOne" src="https://www.thoughtco.com/thmb/TqQm3tRT4882EvcdDbqaogKDonI=/3609x2727/filters:fill(auto,1)/close-up-of-crystal-stone-glowing-in-darkroom-583919173-56f28e5d3df78ce5f83d7284.jpg" alt="">
-        <img id = "crystaltwo" src="https://vignette.wikia.nocookie.net/mgefanon/images/6/69/Kinetic_Crystal.jpg/revision/latest?cb=20150409231719" alt="">
-        <img id = "crystalthree" src="https://vignette.wikia.nocookie.net/marvel-contestofchampions/images/1/1c/2-Star_Crystal.png/revision/latest?cb=20150825213642" alt="">
-        <img id = "crystalfour" src="data:image/png;base64,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" alt="">
+        
+        <div id="crystalCollector">crystalsCollector!</div>
+        
+        <div id="Instructions">
+            <div> You will be given a random number at the start of the game.<br><br> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. <br><br> You win the game by matching your total score to random number, you lose the game is your total score goes above the random number. <br><br> The value of each crystal is hidden from you until you click on it. <br><br> Each time when the game starts, the game will change the values of each crystal <br><br></div>
+            
+        </div>
+        
+        
+        
+        <div id="guessNumber"></div>
+        <div id="gameResult">
+            <div id="gameWinCount">Wins:</div>
+            <div id="gameLossCount">Losses:</div>
+        </div>
+        
+        <div>
+            <img id = "crystalOne" src="https://www.thoughtco.com/thmb/TqQm3tRT4882EvcdDbqaogKDonI=/3609x2727/filters:fill(auto,1)/close-up-of-crystal-stone-glowing-in-darkroom-583919173-56f28e5d3df78ce5f83d7284.jpg" alt="">
+            <img id = "crystaltwo" src="https://vignette.wikia.nocookie.net/mgefanon/images/6/69/Kinetic_Crystal.jpg/revision/latest?cb=20150409231719" alt="">
+            <img id = "crystalthree" src="https://vignette.wikia.nocookie.net/marvel-contestofchampions/images/1/1c/2-Star_Crystal.png/revision/latest?cb=20150825213642" alt="">
+            <img id = "crystalfour" src="data:image/png;base64,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" alt="">
+        </div>
+        
+        <div id="totalScore">Your total score is:</div>
+        
+        <div id="scoreArea"></div>
+        
     </div>
-
-    <div id="totalScore">Your total score is:</div>
-
-<div id="scoreArea"></div>
-
-</div>
-
+    <script src="assets/javascript/game.js"></script>
+    
 </body>
+
